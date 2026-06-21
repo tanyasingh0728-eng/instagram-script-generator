@@ -1,0 +1,29 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(pdftotext -l 2 Influencer_Reels_Transcripts.pdf -)",
+      "Bash(python3 -c ' *)",
+      "Bash(python3 -m json.tool)",
+      "Bash(node -c process_pipeline.js)",
+      "Bash(python3 *)",
+      "Bash(node *)",
+      "Bash(xargs -I{} sh -c 'echo {}')",
+      "Bash(mkdir -p fonts)",
+      "Bash(curl -sL -o NotoSansDevanagari-Regular.ttf \"https://raw.githubusercontent.com/google/fonts/main/ofl/notosansdevanagari/NotoSansDevanagari%5Bwdth%2Cwght%5D.ttf\")",
+      "Bash(curl -sL -o NotoSansArabic-Regular.ttf \"https://raw.githubusercontent.com/google/fonts/main/ofl/notosansarabic/NotoSansArabic%5Bwdth%2Cwght%5D.ttf\")",
+      "Bash(curl -sL -o NotoSansGurmukhi-Regular.ttf \"https://raw.githubusercontent.com/google/fonts/main/ofl/notosansgurmukhi/NotoSansGurmukhi%5Bwdth%2Cwght%5D.ttf\")",
+      "Bash(file *.ttf)",
+      "Bash(open test_multiscript.pdf)",
+      "Bash(open /Users/tanyasingh/instagram-reel-scraper/Influencer_Reels_Transcripts.pdf)",
+      "Bash(npm view *)",
+      "Bash(npm install *)",
+      "Bash(echo \"exit: $?\")",
+      "Bash(pip3 show *)",
+      "Bash(brew list *)",
+      "Bash(brew install *)",
+      "Bash(pdftotext -layout Competitor_Viral_Shorts_Transcripts.pdf /tmp/full_layout.txt)",
+      "Bash(pdftotext Competitor_Viral_Shorts_Transcripts.pdf /tmp/full_plain.txt)",
+      "Read(//tmp/**)"
+    ]
+  }
+}
